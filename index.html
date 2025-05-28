@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Abhirami R Iyer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Abhirami R Iyer</h1>
+        <p>Aspiring Software developer | graphic designer | Full-stack web-developer | UI/UX designer</p>
+    </header>
+
+    <nav class="tabs">
+        <button class="tab-button active" data-tab="about">About Me</button>
+        <button class="tab-button" data-tab="projects">Projects</button>
+		<button class="tab-button" data-tab="gd">Graphic design</button>
+		<button class="tab-button" data-tab="poetry">Poetry</button>
+        <button class="tab-button" data-tab="skills">Skills</button>
+        <button class="tab-button" data-tab="contact">Contact</button>
+    </nav>
+
+    <main class="tab-content-container">
+        <!-- About Me Tab Content -->
+        <section id="about" class="tab-content active">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <!-- <img src="WhatsApp Image 2025-05-19 at 17.58.32.jpeg" alt="Your Profile Picture" class="profile-pic"> -->
+                <div>
+                    <p>Hello! I'm Abhirami R Iyer, a passionate and dedicated aspiring software developer, data enthusiast and graphics enthusiast.</p>
+                    <p>I have a strong foundation in algorithms, full-stack development, data analysis and real-time 3D graphics using OpenGL, GLSL shaders.</p>
+                    <p>When I'm not coding or designing, I enjoy writing and reading. I'm always eager to learn new technologies and take on challenging projects.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Tab Content -->
+        <section id="projects" class="tab-content">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="Screenshot 2025-04-20 at 16.58.53.png" alt="Supernova Simulation">
+                    <h3>Supernova Simulation</h3>
+                    <p>OpenGL Solar system and supernova simulation jan 2025 - feb 2025
+						• Designed and implemented a real-time 3D supernova simulation using OpenGL, featuring dynamic particle
+						generation, motion, and lighting effects.
+						• Built a custom particle system supporting millions of particles with physics-based updates, color transitions, and
+						camera-aligned billboarding.
+						• Developed Gouraud and per-pixel Phong/Blinn-Phong shading models for realistic sphere rendering, including
+						ambient, diffuse, and specular components..
+						• Tools Used: OpenGL, GLEW, glm, C++</p>
+                    <div class="project-links">
+                        <a href="SuperNovaSimulation.mp4" target="_blank" class="btn">Live Demo</a>
+                        <a href="https://github.com/Abhirami009/Graphics-Project.git" target="_blank" class="btn">GitHub Repo</a>
+                    </div>
+                </div>
+				<div class="project-card">
+                    <img src="Screenshot 2025-05-20 at 22.16.38.png" alt="Cube grid simulation - Raster Model">
+                    <h3>Cube grid simulation - Raster Model </h3>
+                    <p>• Developed a 3D cubic grid simulation (5x5x5, 10x10x10) with a movable cube.
+						• Implemented six-directional movement while ensuring grid boundary constraints.
+						• Added color-changing features and grid filling/clearing functionalities.
+						• Integrated grid rotation mechanics while maintaining cube alignment.
+						• Tools Used: OpenGL, GLEW, glm, C++</p>
+                    <div class="project-links">
+                        <!-- <a href="#" target="_blank" class="btn">Live Demo</a> -->
+                        <a href="https://github.com/Abhirami009/Graphics-Project.git" target="_blank" class="btn">GitHub Repo</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="Screenshot 2025-05-20 at 22.06.53.png" alt="Project Allotment portal">
+                    <h3>Project Allocation Portal (Full-Stack web development) </h3>
+                    <p>	• Built a web application for students and faculty to apply for and manage projects.
+						• Implemented student and faculty preference-based allocation using the Gale-Shapley algorithm it’s variations.
+						• Tools Used: Angular, PostgreSQL, Node.js</p>
+                    <div class="project-links">
+                        <!-- <a href="#" target="_blank" class="btn">Live Demo</a> -->
+                        <a href="https://github.com/Samy-uktha/OELP-2025.git" target="_blank" class="btn">GitHub Repo</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <!-- <img src="https://via.placeholder.com/300x200/90EE90/000000?text=Project+Three" alt="Project Allotment portal"> -->
+                    <h3>Institute ERP System (Frontend Development) </h3>
+                    <p>• Designed UI components for the institute’s ERP system, improving usability and accessibility.
+						• Tools Used: Angular, Bootstrap</p>
+                    <div class="project-links">
+                        <!-- <a href="#" target="_blank" class="btn">Live Demo</a> -->
+                        <a href="https://github.com/Abhirami009/IITPKD-ERP.git" target="_blank" class="btn">GitHub Repo</a>
+                    </div>
+                </div>
+				<div class="project-card">
+                    <!-- <img src="https://via.placeholder.com/300x200/90EE90/000000?text=Project+Three" alt="Project Allotment portal"> -->
+                    <h3>Model Checker for CTL logic </h3>
+                    <p>• Developed an model checker for CTL logic.
+						• Implemented the bottom-up CTL model checking algorithm that outputs the subset of states of Kripke structure
+						that satisfies the CTL formula
+						• Tools Used: Lex, Yacc, C</p>
+                    <div class="project-links">
+                        <!-- <a href="#" target="_blank" class="btn">Live Demo</a> -->
+                        <a href="https://github.com/Abhirami009/Model-Checker.git" target="_blank" class="btn">GitHub Repo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+		<section id="gd" class="tab-content">
+            <h2>My Artwork</h2>
+            <p style="text-align: center; margin-bottom: 20px;">A collection of my digital illustrations and graphic design pieces.</p> <!-- Optional description -->
+            <div class="project-grid artwork-grid"> 
+				<div class="artwork-card">
+                    <img src="ogd_entry_a.jpg" alt="Eleven in a magical world" loading="lazy">
+					<h3 class="artwork-title">Reimagining Eleven in a magical world</h3>
+                    <!-- <h3 class="artwork-title">Title for Artboard 1 (Optional)</h3> -->
+                </div>
+                <div class="artwork-card">
+                    <img src="Artboard 1.png" alt="Description of Artboard 1" loading="lazy">
+					<h3 class="artwork-title">Nimbus - kids illustration</h3>
+                    <!-- <h3 class="artwork-title">Title for Artboard 1 (Optional)</h3> -->
+                </div>
+                <div class="artwork-card">
+                    <img src="Artboard 2.png" alt="Description of Artboard 2" loading="lazy">
+					<h3 class="artwork-title">Nimbus - kids illustration</h3>
+                </div>
+                <div class="artwork-card">
+                    <!-- <img src="Artboard 3.png" alt="Description of Artboard 3"> -->
+                    <img src="Artboard 4.png" alt="Description of Artboard 4" loading="lazy">
+					<h3 class="artwork-title">Nimbus - kids illustration</h3>
+                </div>
+                <div class="artwork-card">
+                    <img src="Artboard 5.png" alt="Description of Artboard 5" loading="lazy">
+					<h3 class="artwork-title">Nimbus - kids illustration</h3>
+                </div>
+                <div class="artwork-card">
+                    <img src="Artboard 6.png" alt="Description of Artboard 6" loading="lazy">
+					<h3 class="artwork-title">Nimbus - kids illustration</h3>
+                </div>
+                <div class="artwork-card">
+                    <img src="Artboard 7.png" alt="Description of Artboard 7" loading="lazy">
+					<h3 class="artwork-title">Nimbus - kids illustration</h3>
+                </div>
+                <div class="artwork-card">
+                    <img src="Artboard 8.png" alt="Description of Artboard 8" loading="lazy">
+					<h3 class="artwork-title">Nimbus - kids illustration</h3>
+                </div>
+                <div class="artwork-card">
+                    <img src="Artboard 9.png" alt="Description of Artboard 9" loading="lazy">
+					<h3 class="artwork-title">Nimbus - kids illustration</h3>
+                </div>
+                <div class="artwork-card">
+                    <img src="Artboard 10.png" alt="Description of Artboard 10" loading="lazy">
+					<h3 class="artwork-title">Nimbus - kids illustration</h3>
+                </div>
+                <div class="artwork-card">
+                    <img src="Artboard 11.png" alt="Nimbus kids illustration" loading="lazy">
+                    <h3 class="artwork-title">Nimbus - kids illustration</h3>
+                </div>
+              
+            </div>
+        </section>
+
+
+		<section id="poetry" class="tab-content">
+            <h2>My poetry</h2>
+            <p style="text-align: center; margin-bottom: 20px;">A collection of my poetry.</p> <!-- Optional description -->
+            <div class="project-grid artwork-grid"> 
+				<div class="artwork-card">
+                    <img src="WhatsApp Image 2025-05-20 at 23.44.14.jpeg" alt="To the people disinterested" loading="lazy">
+					<h3 class="artwork-title">To the people disinterested</h3>
+                    <!-- <h3 class="artwork-title">Title for Artboard 1 (Optional)</h3> -->
+                </div>
+              
+            </div>
+			<div class="project-grid artwork-grid"> 
+				<div class="artwork-card">
+                    <img src="caged thoughts.png" alt="caged thoughts" loading="lazy">
+					<img src="caged thoughts (2).png" alt="caged thoughts" loading="lazy">
+					<!-- <h3 class="artwork-title"></h3> -->
+                    <h3 class="artwork-title">Caged thoughts</h3>
+                </div>
+              
+            </div>
+        </section>
+
+        <!-- Skills Tab Content -->
+        <section id="skills" class="tab-content">
+            <h2>My Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+						<li>C++</li>
+						<li>C</li>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>SQL</li>
+                       
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Frameworks & Libraries</h3>
+                    <ul>
+                        <li>Angular.js</li>
+                        <li>Node.js / Express.js</li>
+                        <li>Bootstrap</li>
+                        
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Platforms</h3>
+                    <ul>
+                        <li>Git & GitHub</li>
+                        <li>VS Code</li>
+                        <li>Figma</li>
+						<li>Photoshop</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Other Skills</h3>
+                    <ul>
+                        <li>Problem Solving</li>
+						<li>Poetry</li>
+						<li>Digital Art</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Tab Content -->
+        <section id="contact" class="tab-content">
+         <div class="skills-container">
+			<div class="skill-category">
+				<ul>
+					<li>Phone No. : 9961985768</li>
+					<li>Email : abhiramiriyer@gmail.com</li>
+				</ul>
+			</div>
+		 </div>
+            <div class="social-links">
+                <p>Or find me on:</p>
+                <a href="https://www.linkedin.com/in/abhirami-r-iyer-233ba3315" target="_blank">LinkedIn</a> |
+                <a href="https://github.com/Abhirami009" target="_blank">GitHub</a>
+                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© <span id="current-year"></span> Abhirami R Iyer. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
