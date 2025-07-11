@@ -7,54 +7,68 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Abhirami R Iyer</h1>
-        <p>Aspiring Software developer | graphic designer | Full-stack web-developer | UI/UX designer</p>
-    </header>
 
-    <nav class="tabs">
-        <button class="tab-button active" data-tab="about">About Me</button>
-        <button class="tab-button" data-tab="projects">Projects</button>
-		<button class="tab-button" data-tab="gd">Graphic design</button>
-		<button class="tab-button" data-tab="poetry">Poetry</button>
-        <button class="tab-button" data-tab="skills">Skills</button>
-        <button class="tab-button" data-tab="contact">Contact</button>
-    </nav>
+    <!-- ================== -->
+    <!--  HERO SECTION      -->
+    <!-- ================== -->
+    <section id="hero">
+      <div>
+        <h1 class="hero-title">Portfolio</h1>
+        <p class="hero-subtitle">Abhirami R Iyer</p>
+        <p class="fade-in-out">Scroll down to see more</h1>
+    </div>
+    </section>
 
-    <main class="tab-content-container">
-        <!-- About Me Tab Content -->
-        <section id="about" class="tab-content active">
-            <h2>About Me</h2>
-            <div class="about-content">
-                <!-- <img src="WhatsApp Image 2025-05-19 at 17.58.32.jpeg" alt="Your Profile Picture" class="profile-pic"> -->
-                <div>
-                    <p>Hello! I'm Abhirami R Iyer, a passionate and dedicated aspiring software developer, data enthusiast and graphics enthusiast.</p>
-                    <p>I have a strong foundation in algorithms, full-stack development, data analysis and real-time 3D graphics using OpenGL, GLSL shaders.</p>
-                    <p>When I'm not coding or designing, I enjoy writing and reading. I'm always eager to learn new technologies and take on challenging projects.</p>
-                </div>
+    <!-- ======================= -->
+    <!--  MAIN CONTENT WRAPPER -->
+    <!-- ======================= -->
+    <div id="main-content">
+
+        <header>
+            <div class="leftcont">
+            <h1>Portfolio</h1>
+            <h2>Abhirami R Iyer</h2>
             </div>
-        </section>
+            <p>Aspiring Software developer | graphic designer | Full-stack web-developer | UI/UX designer</p>
+        </header>
 
-        <!-- Projects Tab Content -->
-        <section id="projects" class="tab-content">
-            <h2>My Projects</h2>
-            <div class="project-grid">
-                <div class="project-card">
-                    <img src="resources/Screenshot 2025-04-20 at 16.58.53.png" alt="Supernova Simulation">
-                    <h3>Supernova Simulation</h3>
-                    <p>OpenGL Solar system and supernova simulation jan 2025 - feb 2025
-						• Designed and implemented a real-time 3D supernova simulation using OpenGL, featuring dynamic particle
-						generation, motion, and lighting effects.
-						• Built a custom particle system supporting millions of particles with physics-based updates, color transitions, and
-						camera-aligned billboarding.
-						• Developed Gouraud and per-pixel Phong/Blinn-Phong shading models for realistic sphere rendering, including
-						ambient, diffuse, and specular components..
-						• Tools Used: OpenGL, GLEW, glm, C++</p>
-                    <div class="project-links">
-                        <a href="resources/SuperNovaSimulation.mp4" target="_blank" class="btn">Live Demo</a>
-                        <a href="https://github.com/Abhirami009/Graphics-Project.git" target="_blank" class="btn">GitHub Repo</a>
+        <nav class="tabs">
+            <button class="tab-button active" data-tab="about">About Me</button>
+            <button class="tab-button" data-tab="projects">Projects</button>
+            <button class="tab-button" data-tab="gd">Graphic design</button>
+            <button class="tab-button" data-tab="poetry">Poetry</button>
+            <button class="tab-button" data-tab="skills">Skills</button>
+            <button class="tab-button" data-tab="contact">Contact</button>
+        </nav>
+
+        <main class="tab-content-container">
+            <!-- About Me Tab Content -->
+            <section id="about" class="tab-content active">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <div>
+                        <p>Hello! I'm Abhirami R Iyer, a passionate and dedicated aspiring software developer, data enthusiast and graphics enthusiast.</p>
+                        <p>I have a strong foundation in algorithms, full-stack development, data analysis and real-time 3D graphics using OpenGL, GLSL shaders.</p>
+                        <p>When I'm not coding or designing, I enjoy writing and reading. I'm always eager to learn new technologies and take on challenging projects.</p>
                     </div>
                 </div>
+            </section>
+
+            <!-- Projects Tab Content -->
+            <section id="projects" class="tab-content">
+                <h2>My Projects</h2>
+                <div class="project-grid">
+                    <!-- Your Project Cards Go Here -->
+                    <div class="project-card">
+                        <img src="resources/Screenshot 2025-04-20 at 16.58.53.png" alt="Supernova Simulation">
+                        <h3>Supernova Simulation</h3>
+                        <p>OpenGL Solar system and supernova simulation jan 2025 - feb 2025...</p>
+                        <div class="project-links">
+                            <a href="resources/SuperNovaSimulation.mp4" target="_blank" class="btn">Live Demo</a>
+                            <a href="https://github.com/Abhirami009/Graphics-Project.git" target="_blank" class="btn">GitHub Repo</a>
+                        </div>
+                    </div>
+                    
 				<div class="project-card">
                     <img src="resources/Screenshot 2025-05-20 at 22.16.38.png" alt="Cube grid simulation - Raster Model">
                     <h3>Cube grid simulation - Raster Model </h3>
@@ -102,13 +116,11 @@
                         <a href="https://github.com/Abhirami009/Model-Checker.git" target="_blank" class="btn">GitHub Repo</a>
                     </div>
                 </div>
-            </div>
-        </section>
+                </div>
+            </section>
 
-
-
-
-		<section id="gd" class="tab-content">
+            <!-- Graphic Design Tab Content -->
+            		<section id="gd" class="tab-content">
             <h2>My Artwork</h2>
             <p style="text-align: center; margin-bottom: 20px;">A collection of my digital illustrations and graphic design pieces.</p> <!-- Optional description -->
             <div class="project-grid artwork-grid"> 
@@ -164,18 +176,17 @@
         </section>
 
 
-		<section id="poetry" class="tab-content">
-            <h2>My poetry</h2>
-            <p style="text-align: center; margin-bottom: 20px;">A collection of my poetry.</p> <!-- Optional description -->
-            <div class="project-grid artwork-grid"> 
-				<div class="artwork-card">
-                    <img src="resources/WhatsApp Image 2025-05-20 at 23.44.14.jpeg" alt="To the people disinterested" loading="lazy">
-					<h3 class="artwork-title">To the people disinterested</h3>
-                    <!-- <h3 class="artwork-title">Title for Artboard 1 (Optional)</h3> -->
-                </div>
-              
-            </div>
-			<div class="project-grid artwork-grid"> 
+            <!-- Poetry Tab Content -->
+            <section id="poetry" class="tab-content">
+                <h2>My poetry</h2>
+                <p style="text-align: center; margin-bottom: 20px;">A collection of my poetry.</p>
+                <div class="project-grid artwork-grid"> 
+                    <!-- Your Poetry Cards Go Here -->
+                    <div class="artwork-card">
+                        <img src="resources/WhatsApp Image 2025-05-20 at 23.44.14.jpeg" alt="To the people disinterested" loading="lazy">
+                        <h3 class="artwork-title">To the people disinterested</h3>
+                    </div>
+                   <div class="project-grid artwork-grid"> 
 				<div class="artwork-card">
                     <img src="resources/caged thoughts.png" alt="caged thoughts" loading="lazy">
 					<img src="resources/caged thoughts (2).png" alt="caged thoughts" loading="lazy">
@@ -184,10 +195,11 @@
                 </div>
               
             </div>
-        </section>
+                </div>
+            </section>
 
-        <!-- Skills Tab Content -->
-        <section id="skills" class="tab-content">
+            <!-- Skills Tab Content -->
+<section id="skills" class="tab-content">
             <h2>My Skills</h2>
             <div class="skills-container">
                 <div class="skill-category">
@@ -232,29 +244,34 @@
             </div>
         </section>
 
-        <!-- Contact Tab Content -->
-        <section id="contact" class="tab-content">
-         <div class="skills-container">
-			<div class="skill-category">
-				<ul>
-					<li>Phone No. : 9961985768</li>
-					<li>Email : abhiramiriyer@gmail.com</li>
-				</ul>
-			</div>
-		 </div>
-            <div class="social-links">
-                <p>Or find me on:</p>
-                <a href="https://www.linkedin.com/in/abhirami-r-iyer-233ba3315" target="_blank">LinkedIn</a> |
-                <a href="https://github.com/Abhirami009" target="_blank">GitHub</a>
-                
-            </div>
-        </section>
-    </main>
+            <!-- Contact Tab Content -->
+            <section id="contact" class="tab-content">
+                <h2>Contact Me</h2>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <ul>
+                            <li>Phone No. : 9961985768</li>
+                            <li>Email : abhiramiriyer@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <p>Or find me on:</p>
+                    <a href="https://www.linkedin.com/in/abhirami-r-iyer-233ba3315" target="_blank">LinkedIn</a> |
+                    <a href="https://github.com/Abhirami009" target="_blank">GitHub</a>
+                </div>
+            </section>
+        </main>
 
-    <footer>
-        <p>© <span id="current-year"></span> Abhirami R Iyer. All rights reserved.</p>
-    </footer>
+        <footer>
+            <p>© <span id="current-year"></span> Abhirami R Iyer. All rights reserved.</p>
+        </footer>
 
+    </div> <!-- End of #main-content wrapper -->
+
+    <!-- SCRIPT TAGS (DO NOT MOVE) -->
     <script src="script.js"></script>
+    <script src="libraries/p5.min.js"></script>
+    <script src="dynamic.js"></script>
 </body>
 </html>
