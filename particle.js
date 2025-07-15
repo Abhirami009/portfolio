@@ -120,7 +120,7 @@ class Particle {
   }
   
   display() {
-    this.p.stroke(this.p.random(150, 255));
+    this.p.stroke(255, 60);
     this.p.strokeWeight(1.5);
     this.p.point(this.position.x, this.position.y);
   }

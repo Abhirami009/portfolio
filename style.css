@@ -80,7 +80,7 @@ body {
 
 #p5-background {
     position: fixed;
-    opacity: 0.8;
+    /* opacity: 0.8; */
     top: 0;
     left: 0;
     width: 100%;
