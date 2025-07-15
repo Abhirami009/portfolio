@@ -14,10 +14,10 @@ function setup() {
   noStroke();
 
   // Define the colors for the gradient
-  c1 = color("rgb(9, 40, 54)");   // Dark Teal
-  c2 = color("rgb(214, 236, 246)"); // Peach
-  c3 = color("rgb(235, 229, 153)"); // Coral
-  c4 = color("rgb(230, 104, 197)");   // Lighter Teal
+  c1 = color("rgb(22, 48, 4)");   // Dark Teal
+  c2 = color("rgb(229, 73, 117)"); // Peach
+  c3 = color("rgb(0, 5, 7)"); // Coral
+  c4 = color("rgb(16, 26, 2)");   // Lighter Teal
 }
 
 function draw() {
@@ -25,8 +25,19 @@ function draw() {
   let noise1 = noise(xoff1);
   let noise2 = noise(xoff2);
 
-  let topColor = lerpColor(c1, c2, noise1);
-  let bottomColor = lerpColor(c3, c4, noise2);
+  let r = random(255);
+  let g = random(255);
+  let b = random(255);
+
+   let randomColor = color(r, g, b);
+
+  // let topColor = lerpColor(c1, c2, noise1);
+  let topColor = randomColor;
+  // let bottomColor = lerpColor(c3, c4, noise2);
+  r = random(255);
+  g = random(255);
+  b = random(255);
+  let bottomColor = color(r,g,b); 
 
   // Draw the vertical gradient
   for (let y = 0; y < height; y++) {
@@ -37,8 +48,8 @@ function draw() {
   }
 
   // Increment the noise offsets to animate the gradient
-  xoff1 += 0.005;
-  xoff2 += 0.007;
+  xoff1 += 0.004;
+  xoff2 += 0.005;
 }
 
 // Make sure the canvas resizes when the window is resized

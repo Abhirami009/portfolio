@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+      <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/p5.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/addons/p5.sound.min.js"></script> -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio - Abhirami R Iyer</title>
+    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -96,6 +100,20 @@
                 <h2>My Projects</h2>
                 <div class="project-grid">
                     <!-- Your Project Cards Go Here -->
+
+                <div class="project-card">
+                    <img src="resources/Screenshot 2025-05-20 at 22.06.53.png" alt="Project Allotment portal">
+                    <h3>Project Allocation Portal (Full-Stack web development) </h3>
+                    <p>	• Built a web application for students and faculty to apply for and manage projects.
+						• Implemented student and faculty preference-based allocation using the Gale-Shapley algorithm it’s variations.
+						• Tools Used: Angular, PostgreSQL, Node.js</p>
+                    <div class="project-links">
+                        <!-- <a href="#" target="_blank" class="btn">Live Demo</a> -->
+                        <a href="https://github.com/Samy-uktha/OELP-2025.git" target="_blank" class="btn">GitHub Repo</a>
+                    </div>
+                </div>
+
+
                     <div class="project-card">
                         <img src="resources/Screenshot 2025-04-20 at 16.58.53.png" alt="Supernova Simulation">
                         <h3>Supernova Simulation</h3>
@@ -120,17 +138,20 @@
                     </div>
                 </div>
 
-                <div class="project-card">
-                    <img src="resources/Screenshot 2025-05-20 at 22.06.53.png" alt="Project Allotment portal">
-                    <h3>Project Allocation Portal (Full-Stack web development) </h3>
-                    <p>	• Built a web application for students and faculty to apply for and manage projects.
-						• Implemented student and faculty preference-based allocation using the Gale-Shapley algorithm it’s variations.
-						• Tools Used: Angular, PostgreSQL, Node.js</p>
+                
+                
+                 <div class="project-card">
+                    <!-- <img src="https://via.placeholder.com/300x200/90EE90/000000?text=Project+Three" alt="Project Allotment portal"> -->
+                    <h3>Compiler for .sil language</h3>
+                    <p>Built a compiler for the .sil language with full pipeline: lexical analysis, 
+                        parsing, AST and symbol table construction, semantic analysis, 
+                        and RISC-V assembly code generation.</p>
                     <div class="project-links">
                         <!-- <a href="#" target="_blank" class="btn">Live Demo</a> -->
-                        <a href="https://github.com/Samy-uktha/OELP-2025.git" target="_blank" class="btn">GitHub Repo</a>
+                        <a href="https://github.com/abhirami1101/112201001-CS3140" target="_blank" class="btn">GitHub Repo</a>
                     </div>
                 </div>
+
                 <div class="project-card">
                     <!-- <img src="https://via.placeholder.com/300x200/90EE90/000000?text=Project+Three" alt="Project Allotment portal"> -->
                     <h3>Institute ERP System (Frontend Development) </h3>
@@ -152,6 +173,19 @@
                         <!-- <a href="#" target="_blank" class="btn">Live Demo</a> -->
                         <a href="https://github.com/Abhirami009/Model-Checker.git" target="_blank" class="btn">GitHub Repo</a>
                     </div>
+                </div>
+
+                <div class="project-card">
+                    <!-- <img src="https://via.placeholder.com/300x200/90EE90/000000?text=Project+Three" alt="Project Allotment portal"> -->
+                    <h3>Pipeline modifications on RISCV-CVA6 core </h3>
+                    <p>Analyzed CVA6s original 6-stage pipeline 
+                        and identified all pipeline dependencies and attempted simplification 
+                        of the CVA6 Core by removing pipeline stages.
+						</p>
+                    <!-- <div class="project-links"> -->
+                        <!-- <a href="#" target="_blank" class="btn">Live Demo</a> -->
+                        <!-- <a href="https://github.com/Abhirami009/Model-Checker.git" target="_blank" class="btn">GitHub Repo</a> -->
+                    <!-- </div> -->
                 </div>
                 </div>
             </section>
@@ -326,7 +360,13 @@
 
     <!-- SCRIPT TAGS (DO NOT MOVE) -->
     <script src="script.js"></script>
-    <script src="libraries/p5.min.js"></script>
-    <script src="dynamic.js"></script>
+    <!-- <script src="libraries/p5.min.js"></script> -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+    <!-- <script src="dynamic.js"></script> -->
+     <!-- <script src="disp.js"></script>
+     <script src="glowy.js"></script> -->
+     <script src="particle.js"></script>
+     <script src="sketch.js"></script>
+          <!-- <script src="disp.js"></script> -->
 </body>
 </html>
