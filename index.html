@@ -29,27 +29,64 @@
             <h1>Portfolio</h1>
             <h2>Abhirami R Iyer</h2>
             </div>
-            <p>Aspiring Software developer | graphic designer | Full-stack web-developer | UI/UX designer</p>
+            <p>Aspiring Software developer | Full-stack web-developer | Computer graphics enthusiast</p>
         </header>
 
         <nav class="tabs">
-            <button class="tab-button active" data-tab="about">About Me</button>
+            <button class="tab-button active" data-tab="home">Home</button>
+            <button class="tab-button" data-tab="about">About Me</button>
             <button class="tab-button" data-tab="projects">Projects</button>
-            <button class="tab-button" data-tab="gd">Graphic design</button>
-            <button class="tab-button" data-tab="poetry">Poetry</button>
+            <!-- <button class="tab-button" data-tab="gd">Graphic design</button> -->
+            <!-- <button class="tab-button" data-tab="poetry">Poetry</button> -->
             <button class="tab-button" data-tab="skills">Skills</button>
             <button class="tab-button" data-tab="contact">Contact</button>
+            <button class="tab-button" data-tab="resume"> Download Resume </button>
         </nav>
 
         <main class="tab-content-container">
-            <!-- About Me Tab Content -->
-            <section id="about" class="tab-content active">
-                <h2>About Me</h2>
+
+            <section id="home" class="tab-content active">
+                <h2>Home</h2>
                 <div class="about-content">
                     <div>
                         <p>Hello! I'm Abhirami R Iyer, a passionate and dedicated aspiring software developer, data enthusiast and graphics enthusiast.</p>
                         <p>I have a strong foundation in algorithms, full-stack development, data analysis and real-time 3D graphics using OpenGL, GLSL shaders.</p>
-                        <p>When I'm not coding or designing, I enjoy writing and reading. I'm always eager to learn new technologies and take on challenging projects.</p>
+                        <!-- <p>When I'm not coding or designing, I enjoy writing and reading. I'm always eager to learn new technologies and take on challenging projects.</p> -->
+                    </div>
+                    <!-- <div>
+                        <p>I’m a CS undergrad with a focus on systems programming, 
+                            graphics development (OpenGL), and AI research. 
+                            I love building real-time visualizations, designing 
+                            algorithms, and exploring low-level Linux internals. </p>
+                    </div>
+                    <div>
+                        <p> Btech, CSE @ IIT Palakkad</p>
+                        <p> CGPA : 8.7 </p>
+                        <p> Year of graduation(expected) : 2026</p>
+                    </div> -->
+                </div>
+            </section>
+
+            <!-- About Me Tab Content -->
+
+
+            <section id="about" class="tab-content">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <!-- <div> -->
+                        <!-- <p>Hello! I'm Abhirami R Iyer, a passionate and dedicated aspiring software developer, data enthusiast and graphics enthusiast.</p> -->
+                        <!-- <p>I have a strong foundation in algorithms, full-stack development, data analysis and real-time 3D graphics using OpenGL, GLSL shaders.</p> -->
+                        <!-- <p>When I'm not coding or designing, I enjoy writing and reading. I'm always eager to learn new technologies and take on challenging projects.</p> -->
+                    <!-- </div> -->
+                    <div>
+                        <p>I’m a CS undergrad with a focus on systems programming, 
+                            graphics development (OpenGL), and AI research. 
+                            I love building real-time visualizations, designing 
+                            algorithms, and exploring low-level Linux internals. </p>
+                            <br>
+                        <p> Btech, CSE @ IIT Palakkad</p>
+                        <p> CGPA : 8.7 </p>
+                        <p> Year of graduation(expected) : 2026</p>
                     </div>
                 </div>
             </section>
@@ -259,6 +296,24 @@
                     <p>Or find me on:</p>
                     <a href="https://www.linkedin.com/in/abhirami-r-iyer-233ba3315" target="_blank">LinkedIn</a> |
                     <a href="https://github.com/Abhirami009" target="_blank">GitHub</a>
+                </div>
+            </section>
+
+
+            <section id="resume" class="tab-content">
+                <h2> Resume </h2>
+                <div>
+                    <p>You can view my resume below or click the button to download it.</p>
+
+        <!-- Download Button (Visible on all devices) -->
+                    <a href="resume.pdf" download="Abhirami_Resume.pdf" class="btn">
+                    Download Resume (PDF)
+                    </a>
+
+        <!-- Embedded PDF Viewer (Best for Desktop) -->
+            <div class="resume-container">
+            <iframe src="resume.pdf" title="Abhirami's Resume"></iframe>
+        </div>
                 </div>
             </section>
         </main>
